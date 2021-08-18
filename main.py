@@ -29,7 +29,16 @@ years = [1985, 2016, 1999, 2021, 2005]
 
 
 
-# Then, call the insert(index, value) function on the list (movies) to change the movie titles around to match the order of the list (years). Print along the way to test the output!
+# Then, call the insert(index, value) function on the list (movies) to change the movie titles around or reassign values at specific indexes (list_name[index] = value) in the list (movies) to match the order of the list (years). Print along the way to test your output!
+# You can reassign values at a certain index to be another value at a certain index in the list
+# Example: movies[0] = movies[2] # Reassigning the value at index 0 to be value at index 2
+# Use the pop(index) or remove(value) function to eliminate extra values
+
+
+
+
+
+
 
 
 # Ask the user to enter their favorite movie (hint: input function) and store inside variable called "fave_movie"
@@ -52,7 +61,7 @@ years = [1985, 2016, 1999, 2021, 2005]
 
 
 
-# After the customer has purchased these titles, we need to remove them from the collection. Call the remove(value) function on these values.
+# After the customer has purchased these titles, we need to remove them from the collection. Call the pop(index) function on these values.
 
 
 
@@ -65,10 +74,8 @@ years = [1985, 2016, 1999, 2021, 2005]
 # Print the number of movies in our collection by using the len(list_name) function on the list (movies) with the message "Number of movies: " (Type cast the list to a string when concatenating!)
 
 
-
 # Here's a memorable quote from one of the movies in our collection. Reverse the string to find out what it is!
 quote = "?naeroLeD A fO tuO...enihcaM emiT A tliuB uoY eM gnilleT uoY erA .coD ,etuniM A tiaW"
-
 
 
 # Well thanks for sorting out our movie collection. See ya next time!
